@@ -1,0 +1,72 @@
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(192, 236, 33);
+    color: black;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    left: 550px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.sim{
+    cursor: pointer;
+    position: relative;
+    left: 650px;
+    bottom: -40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(41, 214, 41);
+    border: 1px;
+    border-style: double;
+}
+.nao{
+    cursor: pointer;
+    position: relative;
+    left: 675px;
+    bottom: -40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(199, 23, 23);
+    border: 1px;
+    border-style: double;
+}
+.sim:hover{
+    background-color: rgb(21, 119, 21);
+}
+.sim:active{
+    background-color: rgb(10, 75, 10);
+    transform: translateY(2px);
+}
+.nao:hover{
+    background-color: rgb(131, 23, 23);
+}
+.nao:active{
+    background-color: rgb(75, 6, 6);
+    transform: translateY(2px);
+}
+.resp{
+        margin-top: 6px;
+        position: relative;
+        bottom: -60px;
+        left: 500px;
+        width: 120px;
+        font-size: 23px;
+        color: rgba(12, 110, 41, 0.712);
+}
+#is{
+    background-color: rgb(37, 255, 37);
+    width: 15px;
+    color: black;
+}
+#in{
+    background-color: rgb(255, 0, 0);
+    width: 15px;
+    color: black;
+}
